@@ -82,7 +82,7 @@ font-style: normal;
 font-weight: 700;
 }
 .banner.pera{
-  color:  #ff0000);
+  color:  #ff0000;
 font-size: 18px;
 }
 .about{
@@ -100,4 +100,84 @@ font-size: 18px;
 }
 #do{
   padding: 30px 150px;
+}
+.skil-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+background: #f3cece;
+box-shadow: 20px 10px 50px 20px rgba(71, 27, 10, 0.06);
+ 
+}
+
+section{
+  margin-top: 130px;
+}
+.resume-title{
+  color:#474747;
+
+font-size: 30px;
+
+font-weight: 700;
+}
+.resume-container{
+  display: flex;
+  gap: 50px;
+}
+
+.resume-item-title{
+  color:  #474747;
+
+font-size: 25px;
+
+font-weight: 700;
+margin-bottom: 10px;
+}
+.resume-item-info{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.resume-item-info, .resume-item-description{
+  color: #757575;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+.resume-container hr{
+  margin: 40px 0px;
+}
+.dawonlod-cv{
+  text-align: center;
+  margin-top: 55px;
+
+}
+footer{
+  display: flex;
+  background-color:  #ffe5d3;
+  padding: 130px 200px 130px ;
+  margin-top: 150px; 
+    gap: 100px;
+
+}
+.footer-colum{
+  width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"],textarea{
+  display: block;
+  margin-top: 25px;
+  padding: 18px 35px ;
+  color: #757575;
+ 
+  border: 0px;
+  border-radius: 5px;
+background: #FFF;
+width: 100%;
+}
+
+.contact input[type="submit"]{
+  margin-top: 30px;
 }
